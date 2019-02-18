@@ -1,0 +1,51 @@
+header{
+  background-color: black;
+  height: 60px
+}
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+.header-line h3,p{
+  float: left;
+  color: gray;
+}
+.header-line h3 {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+.header-line p {
+  margin-right: 20px;
+}
+.header-line h3:hover,.header-line p:hover{
+  cursor: pointer;
+  opacity: 0.7;
+}
+.top-logo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+}
+.top-cont ,.lesson{
+  margin-left: 50px;
+  margin-bottom: 0;
+  height: 20px;
+}
+.top-cont p,.lesson p{
+  float: left;
+  padding-left: 5px;
+  padding-right: 30px;
+  width: 15%;
+  border: 1px solid gray;
+}
+.clear {
+  clear: left;
+}
+.lesson p:hover {
+  cursor: pointer;
+  color: rgba(155,100,19,0.7);
+}
+.lesson p:active {
+  background-color: black;
+}
